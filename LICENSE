@@ -25,3 +25,23 @@ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
 LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+MODIFICATION NOTICE
+===================
+
+This project, `cookiecutter-pypackage-secure`, is a derivative of the original
+`cookiecutter-pypackage` by Audrey Roy Greenfeld and contributors:
+  https://github.com/audreyfeldroy/cookiecutter-pypackage
+
+Forked on: Tue Apr 9 17:29:16 2024 +0200  
+Commit: 301eceaee466f6031b93c917cd03d6b3aced3440  
+Maintainer: Gregory @Cymatickot (https://github.com/cymatickot)
+
+Modifications include, but are not limited to:
+
+- Migration to `pyproject.toml` and `uv` for modern builds
+- Replacement of legacy CI with GitHub Actions using hardened DevSecOps stages
+- Integration of SBOM generation, artefact signing, and vulnerability scanning
+- Initial scaffolding for alignment with NIST SSDF, NIS2, and SLSA Level 3
+
+All modifications are offered under the terms of the BSD 3-Clause License above.
